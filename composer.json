@@ -1,0 +1,47 @@
+{
+    "name": "awema-pl/module-theme-switcher",
+    "description": ":description",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karol Golec",
+            "email": "karolgolec10@gmail.com",
+            "homepage": "https://github.pl/awema-pl/module-theme-switcher",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "karolgolec10@gmail.com"
+    },
+    "homepage": "https://github.com/awema-pl/module-theme-switcher",
+    "keywords": [
+        "Laravel",
+        "ThemeSwitcher"
+    ],
+    "autoload": {
+        "psr-4": {
+            "AwemaPL\\ThemeSwitcher\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AwemaPL\\ThemeSwitcher\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AwemaPL\\ThemeSwitcher\\ThemeSwitcherServiceProvider"
+            ],
+            "aliases": {
+                "ThemeSwitcher": "AwemaPL\\ThemeSwitcher\\Facades\\ThemeSwitcher"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
