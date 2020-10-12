@@ -1,6 +1,6 @@
 {
     "name": "awema-pl/module-theme-switcher",
-    "description": ":description",
+    "description": "Module for switch theme to light or dark.",
     "type": "library",
     "license": "MIT",
     "authors": [
